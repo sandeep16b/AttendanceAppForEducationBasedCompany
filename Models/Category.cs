@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
-using AttendanceAppForEducationBasedCompany.Models.SubCategories
+using AttendanceAppForEducationBasedCompany.Models;
 
 namespace AttendanceAppForEducationBasedCompany.Models
 {

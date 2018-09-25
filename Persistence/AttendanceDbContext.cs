@@ -1,4 +1,4 @@
-using MyApp.Models;
+using AttendanceAppForEducationBasedCompany.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 
