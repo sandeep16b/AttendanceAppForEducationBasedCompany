@@ -19,7 +19,7 @@ namespace AttendanceAppForEducationBasedCompany
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
+             services.AddDbContext<AttendanceDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("Default")));
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
